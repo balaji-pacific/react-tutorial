@@ -8,16 +8,18 @@ import StateWithObject from './component/StateWithObject';
 import StateArray from './component/StateArray';
 import Timer from './component/Timer';
 import FormsLearning from './component/FormsLearning';
+import StateExampleLearning from './component/StateExampleLearning';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <StateExample />
+    {/* <StateExample />
     <StateComponent/>
     <StateWithObject/>
     <StateArray/>
     <Timer/>
-    <FormsLearning/>
+    <FormsLearning/> */}
+    <StateExampleLearning/>
  </>
 );
 

@@ -28,7 +28,7 @@ function FormsLearning() {
         <label>Enter your email : <input type="text" name="email" onChange={handleChange} value={values.email}/> </label><br />
         <label>Select Country : 
             <select type="select" name="country" onChange={handleChange}  values={values.country}>
-                <option value="India" selected>India</option>
+                <option value="India">India</option>
                 <option value="USA">USA</option>
             </select> 
         </label><br />
